@@ -3,20 +3,17 @@
 
 The idea is to have a simple way to encrypt/decrypt your .dotfiles (for those with AWS creds, etc) :
 
-- toencrypt -> contains the dotfiles you want to encrypt (using massencrypt.sh)
+- toencrypt (git ignored) -> contains the dotfiles you want to encrypt (using massencrypt.sh)
 
-- toencrypt/pass -> passphrase used to encrypt/decrypt your files (using massencrypt.sh)
+- toencrypt/pass (git ignored) -> passphrase used to encrypt/decrypt your files (using massencrypt.sh)
 
 - encrypted -> your dotfiles encrypted, can be safely checked in
 
-- decrypted -> used as a temporary place to then symlink those in your home folder
+- decrypted (git ignored) -> used as a temporary place to then symlink those in your home folder
 
 - install.sh -> do the magic
 
 - massencrypt.sh -> helper to mass encrypt your files directly
-
-
-Make sure to look at .gitignore for easier understanding…\
 
 
 Don't bother forking that stuff, it's not **sexy** yet.
