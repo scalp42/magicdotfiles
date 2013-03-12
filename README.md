@@ -1,4 +1,4 @@
-# Sexy Dotfiles
+# Magic Dotfiles
 
 
 The idea is to have a simple way to encrypt/decrypt your .dotfiles (for those with AWS creds, etc) :
@@ -16,7 +16,7 @@ The idea is to have a simple way to encrypt/decrypt your .dotfiles (for those wi
 - massencrypt.sh -> helper to mass encrypt your files directly
 
 
-Don't bother forking that stuff, it's not **sexy** yet.
+Don't bother forking that stuff, it's not **magic** yet.
 
 
 
